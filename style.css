@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:AbeeZee,sans-serif;
+    overflow: hidden,scroll;
+    
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 100%;
+}
+
+.container .row{
+    width: 80%;
+    margin: auto;
+}
+
+.container .row .header{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.container .row .header h1{
+    padding-top: 30px;
+    font-size: 45px;
+    color: 	#005400;
+}
+
+.container .row .header h2{
+    margin-top: 15px;
+    font-size: 25px;
+    line-height: 1.5;
+    color: darkolivegreen;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.content .card{
+    flex: 1;
+    margin: 50px 20px;
+    box-shadow: 0px 0px 5px 0px rgba(red, green, blue, alpha);
+    background-color: white;
+}
+
+.content .card .img{
+    width: 100%;
+    height: auto;
+}
+
+.content .card .h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.content .card {
+    font-size: 15px;
+    color: #6e6e6e;
+    line-height: 1.5;
+    padding: 10pxs;
+}
+@media screen and (max-width:768px){
+         .content{
+            flex-direction: column;
+         }
+}
+
+button {
+    color: white;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #005400;
+    transition: all 0.2 ease;
+}
+
+button:active{
+    transform: scale(0.96);
+}
+
+.page1{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:AbeeZee,sans-serif
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.header{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.header h1{
+    line-height: 1.5;
+    color: olivedrab;
+}
+
+.header h2{
+    line-height: 1.5;
+    color: olivedrab;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    cursor: pointer;
+}
+
+
+
