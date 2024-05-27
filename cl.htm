@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> StopChildLabour</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: ABeeZee,sans-serif;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+<!----ABeeZee-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="navbar">
+    <img src="imgs/STOPCHILDLABOUR.png" class="logo">
+      <ul>
+         <li><a href="index.html">home</a></li>
+         <li><a href="about.html">about</a></li>
+         <li><a href="index2.html">articles</a></li>
+         
+         <li><a href="quiz1.html">quiz</a></li>
+      </ul>
+  </div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>3. Child Labor in Supply Chains: How Consumers Can Make a Difference</h2>
+      <h5>20 May 2024 / Krishnagopal</h5>
+      <img src="imgs/11daee59-dc48-4f6f-be42-0ce5d95757db.jpeg" height="200px">
+      <p>Introduction <br>
+        Child labor is often hidden within complex global supply chains, making it difficult for consumers to know if their purchases contribute to this unethical practice. By becoming informed and making conscious choices, consumers can play a critical role in combating child labor.
+        
+        Industries Affected <br>
+        Industries such as agriculture, textiles, and mining are notorious for child labor. For instance, cocoa farming in West Africa, garment factories in Bangladesh, and mica mining in India are all sectors where child labor is prevalent.
+        
+        Consumer Awareness <br>
+        Raising awareness about the origins of products is essential. Consumers should research brands and their supply chain practices, seeking out those committed to ethical labor practices. Companies like Patagonia and Fairphone are examples of brands that prioritize transparency and ethical sourcing.</p>
+    </div>
+    <div class="card">
+      <img src="imgs/360_F_578431366_kE8CHlIirnLzhUpflbMaZ0Upf4IcDw2B.jpg" height="200px">
+      <p>Certification Labels <br>
+        Certification labels like Fair Trade, Rainforest Alliance, and GoodWeave help consumers identify products made under fair labor conditions. These labels ensure that rigorous standards are met, including the prohibition of child labor.
+        
+        Action Steps <br>
+        Consumers can take several steps to avoid supporting child labor:
+        
+        Research and choose ethical brands. <br>
+        Support certification labels. <br>
+        Advocate for corporate transparency. <br>
+        Educate others about the importance of ethical consumption. <br>
+        By making informed choices, consumers can push companies to adopt better practices and help eradicate child labor from supply chains.
+        </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+     <img src="imgs/photo-1.png" height="100px">
+      <p>I'm Krishnagopal.I am the developer of this website</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

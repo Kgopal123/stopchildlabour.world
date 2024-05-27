@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> StopChildLabour</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: ABeeZee,sans-serif;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+<!----ABeeZee-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar">
+    <img src="imgs/STOPCHILDLABOUR.png" class="logo">
+      <ul>
+         <li><a href="index.html">home</a></li>
+         <li><a href="about.html">about</a></li>
+         <li><a href="index2.html">articles</a></li>
+         
+         <li><a href="quiz1.html">quiz</a></li>
+      </ul>
+  </div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>2. Education vs. Child Labor: The Battle for a Better Future</h2>
+      <h5>20 May 2024 / Krishnagopal</h5>
+      <img src="imgs/New folder/_90527325_9de71b9b-a8f3-4dea-8dae-6ca7c16b54b3.jpg" height="200px">
+      <p>Introduction <br>
+        The choice between education and child labor is a stark reality for millions of children around the world. While education holds the key to a brighter future, child labor traps children in a cycle of poverty and exploitation.
+        
+        Importance of Education <br>
+        Education is fundamental in breaking the cycle of poverty. It equips children with the skills and knowledge necessary to secure better jobs and improve their quality of life. Studies have shown that each additional year of schooling can increase an individual's earnings by about 10%.
+        Case Studies <br>
+       Take the example of Malala Yousafzai, who became a global advocate for girls' education after surviving an attack by the Taliban. Her story highlights the transformative power of education. Similarly, programs like India’s Right to Education Act have significantly increased school enrollment rates, demonstrating the impact of educational policies.
+      </p>
+    </div>
+    <div class="card">
+      <img src="imgs/New folder/b80d5f43-e9d9-4767-9142-9c7ddddfdc76.png" height="200px">
+      <p>Barriers <br>
+        Despite the benefits of education, many barriers exist. Poverty, cultural norms, and lack of access to schools are significant obstacles. In many impoverished regions, children are seen as essential contributors to the family income, making child labor a more immediate necessity than education.
+        
+        Solutions <br>
+        To overcome these barriers, governments and NGOs must work together to provide free and accessible education, enforce compulsory schooling laws, and support families economically to reduce their reliance on child labor. Initiatives like school feeding programs can also incentivize attendance and improve educational outcomes.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+     <img src="imgs/photo-1.png" height="100px">
+      <p>I'm Krishnagopal.I am the developer of this website</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

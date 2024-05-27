@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> StopChildLabour</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: ABeeZee,sans-serif;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+<!----ABeeZee-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar">
+    <img src="imgs/STOPCHILDLABOUR.png" class="logo">
+      <ul>
+         <li><a href="index.html">home</a></li>
+         <li><a href="about.html">about</a></li>
+         <li><a href="index2.html">articles</a></li>
+         
+         <li><a href="quiz1.html">quiz</a></li>
+      </ul>
+  </div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>5. Health and Safety Risks: The Physical Toll of Child Labor</h2>
+      <h5>20 May 2024 / Krishnagopal</h5>
+      <img src="imgs/New folder/Child Labour 3.jpg.jpeg" height="200px">
+      <p>Introduction <br>
+        Child labor exposes children to severe health and safety risks, often in environments that are extremely dangerous and unsuitable for their age and development.
+        
+        Work Environments <br>
+        Children working in industries such as mining, construction, and agriculture face hazardous conditions daily. In mining, children are exposed to toxic chemicals and the risk of mine collapses. In construction, they handle heavy machinery and dangerous materials without proper training or protection.
+        
+        Long-term Health Effects <br>
+        The long-term health effects of child labor can be devastating. Many children suffer from chronic illnesses, respiratory problems, and musculoskeletal disorders due to prolonged exposure to harmful conditions and excessive physical labor. These health issues often persist into adulthood, reducing their quality of life and ability to work.</p>
+    </div>
+    <div class="card">
+      <img src="imgs/New folder/Child-labour.jpg" height="200px">
+      <p>
+        Healthcare Access <br>
+        Child laborers typically have limited access to healthcare, exacerbating their health problems. Without proper medical attention, injuries and illnesses go untreated, leading to long-term consequences. The lack of healthcare access also means that preventable diseases can become life-threatening.
+
+         Prevention and Support <br>
+        Preventing child labor and providing support for affected children is essential. Governments and NGOs must work to enforce health and safety regulations, provide access to healthcare, and support families economically to reduce their dependence on child labor. Educational programs about workplace safety and children's rights can also empower children and their families to advocate for safer conditions.
+        </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+     <img src="imgs/photo-1.png" height="100px">
+      <p>I'm Krishnagopal.I am the developer of this website</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

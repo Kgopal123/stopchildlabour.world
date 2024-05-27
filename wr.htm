@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> StopChildLabour</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: ABeeZee,sans-serif;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+<!----ABeeZee-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar">
+    <img src="imgs/STOPCHILDLABOUR.png" class="logo">
+      <ul>
+         <li><a href="index.html">home</a></li>
+         <li><a href="about.html">about</a></li>
+         <li><a href="index2.html">articles</a></li>
+         
+         <li><a href="quiz1.html">quiz</a></li>
+      </ul>
+  </div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>1. The Global Impact of Child Labor: Understanding the Scale and Scope</h2>
+      <h5>20 May 2024 / Krishnagopal</h5>
+      <img src="imgs/pexels-kabita-darlami-5429992.jpg" height="200px">
+      <p>
+        Introduction <br>
+        Child labor remains a significant issue worldwide, affecting millions of children and impeding their development. Defined as work that deprives children of their childhood, potential, and dignity, and that is harmful to physical and mental development, child labor is a global crisis that demands urgent attention.
+
+        Statistics <br>
+        According to the International Labour Organization (ILO), approximately 160 million children were engaged in child labor as of 2020. This figure represents nearly 1 in 10 children worldwide, with the majority of these children involved in hazardous work.
+      </p>
+    </div>
+    <div class="card">
+      <img src="imgs/ai-generated-8199894_640.png" height="200px">
+      <p>
+        Regional Focus  <br>
+        The problem is particularly severe in Sub-Saharan Africa, where child labor rates are highest. South Asia also has a significant number of child laborers, particularly in sectors such as agriculture, manufacturing, and services. These regions face economic challenges and lack adequate education systems, contributing to the persistence of child labor.
+        
+        Consequences <br>
+        The impact of child labor on children is profound. Physically, it can lead to injuries, chronic health problems, and even death. Psychologically, it often results in trauma, anxiety, and depression. Educationally, child labor deprives children of the chance to attend school, trapping them in a cycle of poverty and limiting their future opportunities.
+        
+        Call to Action <br>
+        Combating child labor requires a collective effort. Governments must enforce stringent laws, NGOs need to continue their advocacy and support, and individuals can make informed choices to support ethical practices. Together, we can work towards a future where no child is subjected to labor.
+      </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+     <img src="imgs/photo-1.png" height="100px">
+      <p>I'm Krishnagopal.I am the developer of this website</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
